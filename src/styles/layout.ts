@@ -5,3 +5,7 @@ export const Center = css`
   justify-content: center;
   align-items: center;
 `;
+
+export const FrozenItem = css`
+  flex: 0 0 auto;
+`;

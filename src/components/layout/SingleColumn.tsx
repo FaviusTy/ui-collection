@@ -1,3 +1,6 @@
+/**
+ * 子要素をシングルカラムレイアウトにするComponent
+ */
 import React, { memo } from "react";
 import { css } from "goober";
 import c from "../../util/classNames";

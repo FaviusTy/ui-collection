@@ -1,3 +1,6 @@
+/**
+ * 子要素をレイヤリング(重ね合わせ)表示するComponent
+ */
 import { css } from "goober";
 import React, { memo } from "react";
 import c from "../../util/classNames";

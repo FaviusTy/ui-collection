@@ -10,10 +10,40 @@ render(
       <header>is header</header>
       <nav>is nav</nav>
       <div
-        className={Center}
-        style={{ fontSize: majorThird(5), flexGrow: 10, height: 1000 }}
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          flexGrow: 10,
+          height: 1000,
+        }}
       >
-        Hello world
+        <div className={Center} style={{ fontSize: majorThird(5) }}>
+          Hello world
+        </div>
+        <div className={Center} style={{ fontSize: majorThird(4) }}>
+          Hello world
+        </div>
+        <div className={Center} style={{ fontSize: majorThird(3) }}>
+          Hello world
+        </div>
+        <div className={Center} style={{ fontSize: majorThird(2) }}>
+          Hello world
+        </div>
+        <div className={Center} style={{ fontSize: majorThird(1) }}>
+          Hello world
+        </div>
+        <div className={Center} style={{ fontSize: majorThird(0) }}>
+          Hello world
+        </div>
+        <div className={Center} style={{ fontSize: majorThird(-1) }}>
+          Hello world
+        </div>
+        <div className={Center} style={{ fontSize: majorThird(-2) }}>
+          Hello world
+        </div>
+        <div className={Center} style={{ fontSize: majorThird(-3) }}>
+          Hello world
+        </div>
       </div>
       <footer>is footer</footer>
     </SingleColumn>

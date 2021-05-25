@@ -2,7 +2,7 @@ import React, { memo } from "react";
 import { css } from "goober";
 import c from "../../util/classNames";
 
-const Style = css`
+export const Style = css`
   display: flex;
   flex-direction: column;
   width: 100%;

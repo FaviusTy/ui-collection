@@ -3,6 +3,7 @@ import React from "react";
 import SingleColumn from "./components/layout/SingleColumn";
 import { Center } from "./styles/layout";
 import { majorThird } from "./styles/Typograhy";
+import CardLayout from "./components/layout/CardLayout";
 
 render(
   <>
@@ -12,38 +13,39 @@ render(
       <div
         style={{
           display: "flex",
-          flexDirection: "column",
           flexGrow: 10,
           height: 1000,
         }}
       >
-        <div className={Center} style={{ fontSize: majorThird(5) }}>
-          Hello world
-        </div>
-        <div className={Center} style={{ fontSize: majorThird(4) }}>
-          Hello world
-        </div>
-        <div className={Center} style={{ fontSize: majorThird(3) }}>
-          Hello world
-        </div>
-        <div className={Center} style={{ fontSize: majorThird(2) }}>
-          Hello world
-        </div>
-        <div className={Center} style={{ fontSize: majorThird(1) }}>
-          Hello world
-        </div>
-        <div className={Center} style={{ fontSize: majorThird(0) }}>
-          Hello world
-        </div>
-        <div className={Center} style={{ fontSize: majorThird(-1) }}>
-          Hello world
-        </div>
-        <div className={Center} style={{ fontSize: majorThird(-2) }}>
-          Hello world
-        </div>
-        <div className={Center} style={{ fontSize: majorThird(-3) }}>
-          Hello world
-        </div>
+        <CardLayout>
+          <div className={Center} style={{ fontSize: majorThird(5) }}>
+            Hello world
+          </div>
+          <div className={Center} style={{ fontSize: majorThird(4) }}>
+            Hello world
+          </div>
+          <div className={Center} style={{ fontSize: majorThird(3) }}>
+            Hello world
+          </div>
+          <div className={Center} style={{ fontSize: majorThird(2) }}>
+            Hello world
+          </div>
+          <div className={Center} style={{ fontSize: majorThird(1) }}>
+            Hello world
+          </div>
+          <div className={Center} style={{ fontSize: majorThird(0) }}>
+            Hello world
+          </div>
+          <div className={Center} style={{ fontSize: majorThird(-1) }}>
+            Hello world
+          </div>
+          <div className={Center} style={{ fontSize: majorThird(-2) }}>
+            Hello world
+          </div>
+          <div className={Center} style={{ fontSize: majorThird(-3) }}>
+            Hello world
+          </div>
+        </CardLayout>
       </div>
       <footer>is footer</footer>
     </SingleColumn>

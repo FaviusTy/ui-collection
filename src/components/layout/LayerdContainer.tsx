@@ -13,7 +13,7 @@ const Styles = css`
   }
 `;
 
-export default memo(function LayerdContainer(props) {
+export default memo(function LayerdContainer(props: any) {
   const { className = "", children, ...rest } = props;
   return (
     <div className={c(Styles, className)} {...rest}>

@@ -1,6 +1,5 @@
 import { css } from "goober";
 import React, { memo } from "react";
-import { Center, FullSize } from "../../styles/layout";
 import c from "../../util/classNames";
 
 const Style = css`

@@ -9,6 +9,8 @@ import CardLayout from "./components/layout/CardLayout";
 import LayerdContainer from "./components/layout/LayerdContainer";
 import Card from "./sample/Card";
 import FlexibleGridLayout from "./components/layout/FlexibleGridLayout";
+import Modal from "./components/parts/Modal";
+import ModalTest from "./sample/ModalTest";
 
 // Bootstrap goober
 setup(React.createElement, prefix);
@@ -18,7 +20,10 @@ render(
     <SingleColumn>
       <header>is header</header>
       <nav>is nav</nav>
-      <div style={{ flexGrow: 10, height: 1000 }}>
+      <div
+        style={{ flexGrow: 10, height: 1000 }}
+        onClick={() => console.log("clicked!")}
+      >
         <FlexibleGridLayout baseSize="200px">
           <Card />
           <Card />
@@ -31,6 +36,7 @@ render(
           <Card />
           <Card />
         </FlexibleGridLayout>
+        <ModalTest />
       </div>
       <footer>is footer</footer>
     </SingleColumn>
